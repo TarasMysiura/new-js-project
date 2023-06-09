@@ -1,0 +1,21 @@
+/* =======MOVIE-GALLERY======= */
+.catalog__gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog__gallery {
+    row-gap: 28px;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog__gallery {
+    row-gap: 32px;
+  }
+}
